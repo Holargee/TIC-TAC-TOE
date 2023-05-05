@@ -128,14 +128,14 @@ else if (b2.innerText.length<1&&b5.innerText=="o"&&b8.innerText=="o"){b2.innerTe
 else if (b3.innerText.length<1&&b6.innerText=="o"&&b9.innerText=="o"){b3.innerText="x"}
 else if (b6.innerText.length<1&&b5.innerText=="o"&&b4.innerText=="o"){b6.innerText="x"}
 else if (b7.innerText.length<1&&b5.innerText=="o"&&b3.innerText=="o"){b7.innerText="x"}
-else if(b1.innerText=="x" && b5.innerText=="o"){b9.innerText="x"}
-else if (b7.innerText.length<1&&b8.innerText=="o"&&b9.innerText=="o"){b7.innerText="x"}
-else if (b5.innerText=="o"&& b7.innerText=="x"&& b3.innerText=="o"&& b1.innerText=="o"){b4.innerText="x"}
-else if(b5.innerText=="o"&& b7.innerText=="x"){b9.innerText="x"}
-else if(b5.innerText=="o"){b7.innerText="x"}
-else if(b1.innerText=="x"&& b3.innerText=="o"){b9.innerText="x"}
-else if(b1.innerText=="x"&& b7.innerText=="o"){b9.innerText="x"}
-else if(b1.innerText=="x"&& b9.innerText=="o"){b5.innerText="x"}
+else if(b1.innerText=="x" && b5.innerText=="o"&& b9.innerText.length<1){b9.innerText="x"}
+else if (b7.innerText.length<1&&b8.innerText=="o"&&b9.innerText=="o"&& b7.innerText.length<1){b7.innerText="x"}
+else if (b5.innerText=="o"&& b7.innerText=="x"&& b3.innerText=="o"&& b1.innerText=="o"&& b4.innerText.length<1){b4.innerText="x"}
+else if(b5.innerText=="o"&& b7.innerText=="x"&& b9.innerText.length<1){b9.innerText="x"}
+else if(b5.innerText=="o"&& b7.innerText.length<1){b7.innerText="x"}
+else if(b1.innerText=="x"&& b3.innerText=="o"&& b9.innerText.length<1){b9.innerText="x"}
+else if(b1.innerText=="x"&& b7.innerText=="o"&& b9.innerText.length<1){b9.innerText="x"}
+else if(b1.innerText=="x"&& b9.innerText=="o"&& b5.innerText.length<1){b5.innerText="x"}
 else if(b5.innerText.length<1){b5.innerText="x"}
 else if(b8.innerText.length<1){b8.innerText="x"}
 else if(b3.innerText.length<1){b3.innerText="x"}
@@ -196,13 +196,13 @@ else if (b3.innerText.length<1&&b6.innerText=="x"&&b9.innerText=="x"){b3.innerTe
 else if (b6.innerText.length<1&&b5.innerText=="x"&&b4.innerText=="x"){b6.innerText="o"}
 else if (b7.innerText.length<1&&b5.innerText=="x"&&b3.innerText=="x"){b7.innerText="o"}
 else if (b7.innerText.length<1&&b8.innerText=="x"&&b9.innerText=="x"){b7.innerText="o"}
-else if(b1.innerText=="o"&& b5.innerText=="x"){b9.innerText="o"}
-else if (b5.innerText=="x"&& b7.innerText=="o"&& b3.innerText=="x"&& b1.innerText=="x"){b4.innerText="o"}
-else if(b5.innerText=="x"&& b7.innerText=="o"){b9.innerText="o"}
-else if(b5.innerText=="x"){b7.innerText="o"}
-else if(b1.innerText=="o"&& b3.innerText=="x"){b9.innerText="o"}
-else if(b1.innerText=="o"&& b7.innerText=="x"){b9.innerText="o"}
-else if(b1.innerText=="o"&& b9.innerText=="x"){b5.innerText="o"}
+else if(b1.innerText=="o"&& b5.innerText=="x"&& b9.innerText.length<1){b9.innerText="o"}
+else if (b5.innerText=="x"&& b7.innerText=="o"&& b3.innerText=="x"&& b1.innerText=="x"&& b4.innerText.length<1){b4.innerText="o"}
+else if(b5.innerText=="x"&& b7.innerText=="o"&& b9.innerText.length<1){b9.innerText="o"}
+else if(b5.innerText=="x"&& b7.innerText.length<1){b7.innerText="o"}
+else if(b1.innerText=="o"&& b3.innerText=="x"&& b9.innerText.length<1){b9.innerText="o"}
+else if(b1.innerText=="o"&& b7.innerText=="x"&& b9.innerText.length<1){b9.innerText="o"}
+else if(b1.innerText=="o"&& b9.innerText=="x"&& b5.innerText<1){b5.innerText="o"}
 else if(b5.innerText.length<1){b5.innerText="o"}
 else if(b8.innerText.length<1){b8.innerText="o"}
 else if(b3.innerText.length<1){b3.innerText="o"}
