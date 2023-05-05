@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title>Tic Tac Toe</title>
+   <link rel="stylesheet"href="TTT.css">
+        
+    </head>
+    <body>
+<input type="checkbox"id="checf"class="none">
+<input type="checkbox"id="checxo"class="none">
+<input type="checkbox"id="chec"class="none">
+        <div class="body1"id="body1">
+   <center><div class="xo1">x<span class="or">o</span></div></center>
+       <div class="pp">
+   <div class="pp1">PICK YOUR MARK</div>
+       <div class="swi"><span onclick="sswi2()"id="swi2" class="swi2">x</span> <span onclick="sswio()" id="swio" class="">o</span></div>
+       <div class="rx">REMEMBER X GOES FIRST</div>
+       </div>
+       <div class="ng"onclick="pl();ai()">NEW GAME (VS AI)</div>
+       <div class="ng ng1"onclick="fri()">NEW GAME (VS FRIEND)</div>         
+        </div>
+        <div class="main" id="main">    
+        <center>
+       <div class="head">
+           <span class="xo">x<span class="or">o</span></span>
+           <span class="xt" ><span class="xtt"id="xoo">x</span> TURN</span>
+           <span class="q"onclick="rel()">&#8635;</span>
+       </div> 
+       </center>
+       <div class="grid">
+         <div class="">
+<div onclick="xo1();bb1();addx()" class="box"id="b1"></div>
+<div onclick="xo2();bb2();addx()" class="box"id="b2"></div>
+<div onclick="xo3();bb3();addx()" class="box"id="b3"></div>
+         </div>
+         <div>
+<div onclick="xo4();bb4();addx()" class="box"id="b4"></div>
+<div onclick="xo5();bb5();addx()" class="box"id="b5"></div>
+<div onclick="xo6();bb6();addx()" class="box"id="b6"></div>
+         </div>
+         <div>
+<div onclick="xo7();bb7();addx()" class="box"id="b7"></div>
+<div onclick="xo8();bb8();addx()" class="box"id="b8"></div>
+<div onclick="xo9();bb9();addx()" class="box"id="b9"></div>
+         </div>
+     </div> 
+     <div class="grid">
+         <div class="bo bo1">X (<span id="xy">YOU</span>)<br><span class="no"id="xscr">0</span></div>
+         <div class="bo bo2">TIES<br><span class="no"id="tscr">0</span></div>
+         <div class="bo bo3">O(<span id="oy">AI</span>)<br><span class="no"id="oscr">0</span></div> 
+     </div> 
+     </div>
+    <div class="win" id="win">
+           <center>
+    <div class="yw"id="res"><span id="yo">YOU</span> <span id="wo"></span> !</div>
+    <div class="tt"><span class="xtt"id="xoo1"></span> TAKES THE NEXT ROUND</div>
+    <div class="qn">
+        <div class="qu"onclick="rel()">QUIT</div>
+        <div class="qu nr"onclick="ner()">NEXT ROUND</div>
+    </div>
+    </center>   
+     </div>
+     <script src="TTT.js"></script>
+    </body>
+</html>
