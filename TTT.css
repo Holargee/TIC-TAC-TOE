@@ -1,0 +1,235 @@
+body{
+    background-color:#081409f1;
+    color:white;
+    font-family:sans-serif;
+}
+.body1{
+    margin-top:50%;
+    transform:translateY(-50%);
+    display: non;
+}
+.main{
+    display:none;
+    filte:blur(5px);
+}
+.win{
+    display:none;
+    position:relative;
+    top:-500px;
+    transfrm:translateY(-50%);
+    margin:auto;
+    width:100%;
+    display:fixed;
+    background-color:#0814097f;
+    padding-bottom:40px;
+}
+.yw{
+    padding-top:40px;
+    font-weight:bold;
+    margin-bottom:0px;
+    color:rgb(200,220,220);
+}
+.tt{
+    font-size:20px;
+    font-weight:bold;
+    color:teal;
+    margin-bottom:20px;
+}
+.xtt{
+    font-weight:900;
+    font-size:35px;
+    position:relative;
+    top:3px;
+}
+.qn{
+    display: flex;
+    justify-content: center;
+}
+.qu{
+    background-color:rgb(200,220,220);
+    font-size:20px;
+    color:black;
+    font-weight:bold;
+    border-radius:8px;
+    padding:10px;
+}
+.nr{
+    background-color:orange;
+    margin-left:10px;
+}
+.head{
+    margin-bottom:70px;
+}
+.xo1{
+    font-size:50px;
+    font-weight:bold;
+    color:teal;
+    margin-bottom:20px;
+}
+.pp{
+    background-color:#1484f16e;
+    text-align: center;
+    padding:10px 0px;
+    width:300px;
+    margin:auto;
+    border-radius:10px;
+}
+.swi{
+    background-color:#081409f1;
+    font-size:30px;
+    font-weight:bold;
+    width:195px;
+    margin:auto;
+    text-align:left;
+    position:relative;
+    height:40px;
+    padding-left:65px;
+    border-radius:10px;
+    color:rgb(200,220,220);
+    display:inline-block;
+}
+.ng{
+    width:300px;
+    margin:auto;
+    background-color:orange;
+    color:black;
+    text-align: center;
+    padding:10px 0px;
+    margin-top:20px;
+    font-weight:bold;
+    border-radius:10px;
+}
+.ng1{
+    margin-top:10px;
+    background-color:teal;
+}
+.swio{
+    float:right;
+    color:black;
+    width:125px;
+    border-radius:5px;
+    position:relative;
+    left:-5px;
+    top:-25px;
+    height:30px;
+    line-height:25px;
+    text-align: center;
+    background-color:rgb(200,220,220);
+}
+.swi2{
+     color:black;
+    width:125px;
+    border-radius:5px;
+    position:relative;
+    top:5px;
+    height:30px;
+    line-height:25px;
+    text-align: center;
+    background-color:rgb(200,220,220);
+     float:left;
+     position:relative;
+     left:-60px;
+}
+.pp1{
+    margin-bottom:10px;
+    font-weight:bold;
+    color:rgb(200,220,220);
+}
+.rx{
+    margin-top:10px;
+    font-weight:bold;
+    opacity:0.5;
+    color:rgb(200,220,220);
+    font-size:12px;
+}
+.xo{
+   float:left;
+   position:relative;
+   font-size:50px;
+   font-weight:bold;
+   left:20px;
+   color:teal;
+}
+.or{
+    color: orange;
+}
+.xt{
+   float: center;
+   background-color:#1484f16e;
+   padding:5px 10px;
+   font-size:16px;
+   font-weight:bold;
+   position:relative;
+   top:5px;
+   box-shadow:0px 6px black;
+   border-radius:5px;
+   color:rgb(200,220,220);
+}
+.q{
+    float: right;
+    background-color:rgb(200,220,220);
+    color:black;
+    height:30px;
+    padding:0px;
+    font-size:35px;
+    font-weight:bolder;
+    border-radius:5px;
+    position:relative;
+    top:18px;
+    right:20px;
+    box-shadow:0px 3px darkgrey;
+    line-height:30px;
+}
+.grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    gap:0px;
+    margin:auto;
+    width:300px;
+    height:300px;
+}
+.box{
+    width:80px;
+    height:80px;
+    background-color:#1484f16e;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:80px;
+    font-weight:bold;
+    border-radius:5px;
+    margin-top:20px;
+    box-shadow:0px 5px black;
+    
+}
+.bo{
+    width:80px;
+    height:40px;
+    background-color:grey;
+    justify-content: center;
+    text-align: center;
+    padding:10px 0px;
+    border-radius:10px;
+    margin-top:25px;
+    color:black;
+    
+}
+.no{
+    font-weight:bold;
+    font-size:20px;
+}
+.bo1{
+    background-color:teal;
+}
+.bo2{
+    background-color:rgb(200,220,220);
+}
+.bo3{
+    background-color:orange;
+}
+.none{
+    display:none;
+}
